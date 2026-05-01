@@ -49,6 +49,24 @@ KEY POINTS:
 SOURCES:
 * https://example.com
 
+## Challenges & Solutions
+
+1. LLM Output Inconsistency
+LLMs sometimes return non-JSON responses even when instructed.
+**Solution:**
+* Strict prompt engineering
+* JSON cleaning and parsing logic
+  
+2. Token Limit Errors
+Large context caused API failures due to token limits.
+**Solution:**
+* Implemented context trimming
+* Limited number of results and content size
+
+3. API Reliability
+Occasional failures or malformed responses.
+**Solution:**
+* Added retry mechanism for robustness
 ## outcomes
 * Handling LLM output inconsistencies
 * Managing token limits
