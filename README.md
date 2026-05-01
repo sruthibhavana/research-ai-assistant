@@ -1,5 +1,13 @@
 # Research AI Assistant
 
+Most basic AI tools only perform single-step processing (search and then summarize).
+I have build a system that behaves more like an AI agent, capable of:
+1. refining queries
+2. iteratively gathering information
+3. handling incomplete or noisy data
+4. managing token limits in real-world API usage
+This project is  more of a realistic approach to AI system design.
+
 ## Overview
 This is a CLI-based AI Research Assistant that performs intelligent web research using APIs and LLMs.
 It takes a user query, refines it, searches the web, and generates structured insights including summary, key points, and sources.
