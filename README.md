@@ -20,7 +20,6 @@ It takes a user query, refines it, searches the web, and generates structured in
 * Context trimming to handle token limits
 * Retry mechanism for robustness
 * Clean structured output
-* 
 ## Tech Stack
 * Python
 * Tavily API (Search)
